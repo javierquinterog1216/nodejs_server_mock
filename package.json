@@ -1,0 +1,22 @@
+{
+  "name": "nodejs_server_mock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javierquinterog1216/nodejs_server_mock.git"
+  },
+  "author": "javierquinterog1216@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javierquinterog1216/nodejs_server_mock/issues"
+  },
+  "homepage": "https://github.com/javierquinterog1216/nodejs_server_mock#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
