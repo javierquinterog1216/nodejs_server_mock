@@ -24,7 +24,7 @@ res.json(
 		  "Sede": "MEDELLIN",
 		  "Proyecto": {
 			"NombreProyecto": "ENEL CODENSA SOC-SOT ZONA SUR",
-			"Codigo": "010C"
+			"Codigo": "010C_IMP"
 		  }
 		},
 		{
@@ -43,7 +43,7 @@ res.json(
 		  "Sede": "MEDELLIN",
 		  "Proyecto": {
 			"NombreProyecto": "ENEL CODENSA SOC-SOT ZONA SUR",
-			"Codigo": "010C"
+			"Codigo": "010C_IMP"
 		  }
 		},
 		{
@@ -62,7 +62,7 @@ res.json(
 		  "Sede": "MEDELLIN",
 		  "Proyecto": {
 			"NombreProyecto": "ENEL CODENSA SOC-SOT ZONA SUR",
-			"Codigo": "010C"
+			"Codigo": "010C_IMP"
 		  }
 		},
 		{
@@ -81,7 +81,7 @@ res.json(
 		  "Sede": "MEDELLIN",
 		  "Proyecto": {
 			"NombreProyecto": "ENEL CODENSA SOC-SOT ZONA SUR",
-			"Codigo": "010C"
+			"Codigo": "010C_IMP"
 		  }
 		},
 		{
@@ -100,7 +100,7 @@ res.json(
 		  "Sede": "MEDELLIN",
 		  "Proyecto": {
 			"NombreProyecto": "ENEL CODENSA SOC-SOT ZONA SUR",
-			"Codigo": "010C"
+			"Codigo": "010C_IMP"
 		  }
 		},
 		{
@@ -119,7 +119,7 @@ res.json(
 		  "Sede": "MEDELLIN",
 		  "Proyecto": {
 			"NombreProyecto": "ENEL CODENSA SOC-SOT ZONA SUR",
-			"Codigo": "010C"
+			"Codigo": "010C_IMP"
 		  }
 		},
 		{
@@ -138,7 +138,7 @@ res.json(
 		  "Sede": "MEDELLIN",
 		  "Proyecto": {
 			"NombreProyecto": "ENEL CODENSA SOC-SOT ZONA SUR",
-			"Codigo": "010C"
+			"Codigo": "010C_IMP"
 		  }
 		},
 		{
@@ -157,7 +157,7 @@ res.json(
 		  "Sede": "MEDELLIN",
 		  "Proyecto": {
 			"NombreProyecto": "ENEL CODENSA SOC-SOT ZONA SUR",
-			"Codigo": "010C"
+			"Codigo": "010C_IMP"
 		  }
 		},
 		{
@@ -176,7 +176,7 @@ res.json(
 		  "Sede": "MEDELLIN",
 		  "Proyecto": {
 			"NombreProyecto": "ENEL CODENSA SOC-SOT ZONA SUR",
-			"Codigo": "010C"
+			"Codigo": "010C_IMP"
 		  }
 		},
 		{
@@ -195,7 +195,7 @@ res.json(
 		  "Sede": "MEDELLIN",
 		  "Proyecto": {
 			"NombreProyecto": "ENEL CODENSA SOC-SOT ZONA SUR",
-			"Codigo": "010C"
+			"Codigo": "010C_IMP"
 		  }
 		}
 	  ]
