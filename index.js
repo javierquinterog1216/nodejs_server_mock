@@ -8,17 +8,197 @@ const PORT = process.env.PORT || 3030;
 app.get('/', function(req, res) {
 res.json(
 	[
-		{"CodigoEmpleado":19937676,"TipoIdentificacion":"CC","NroIdentificacion":19937676,"DescripcionCargo":"0028 - OFICIAL","PrimerNombre":"Ciel","SegundoNombre":"Cordelia","PrimerApellido":"Fraczek","SegundoApellido":"Cuming","Telefono":"439-325-0286","Dirección":"5 Lakewood Circle","Email":"ccuming0@go.com","Estado":true,"Sede":"MEDELLIN","NombreProyecto":"CLARO INTEGRAL"},
-		{"CodigoEmpleado":36666886,"TipoIdentificacion":"CC","NroIdentificacion":36666886,"DescripcionCargo":"0028 - OFICIAL","PrimerNombre":"Willi","SegundoNombre":"Morly","PrimerApellido":"Cowdray","SegundoApellido":"Drewitt","Telefono":"796-136-4591","Dirección":"652 Delaware Terrace","Email":"mdrewitt1@mapy.cz","Estado":true,"Sede":"MEDELLIN","NombreProyecto":"CLARO INTEGRAL"},
-		{"CodigoEmpleado":7098072,"TipoIdentificacion":"CC","NroIdentificacion":7098072,"DescripcionCargo":"0028 - OFICIAL","PrimerNombre":"Gilberta","SegundoNombre":"Toddie","PrimerApellido":"Beet","SegundoApellido":"Fink","Telefono":"906-781-6341","Dirección":"67871 Hoard Crossing","Email":"tfink2@cmu.edu","Estado":true,"Sede":"MEDELLIN","NombreProyecto":"CLARO INTEGRAL"},
-		{"CodigoEmpleado":9111550,"TipoIdentificacion":"CC","NroIdentificacion":9111550,"DescripcionCargo":"0028 - OFICIAL","PrimerNombre":"Violette","SegundoNombre":"Jonah","PrimerApellido":"Sheryn","SegundoApellido":"D'Agostini","Telefono":"453-237-6331","Dirección":"05 Fairfield Avenue","Email":"jdagostini3@over-blog.com","Estado":true,"Sede":"MEDELLIN","NombreProyecto":"CLARO INTEGRAL"},
-		{"CodigoEmpleado":5826857,"TipoIdentificacion":"CC","NroIdentificacion":5826857,"DescripcionCargo":"0028 - OFICIAL","PrimerNombre":"Ricca","SegundoNombre":"Tabbatha","PrimerApellido":"Abbado","SegundoApellido":"Strangward","Telefono":"111-591-2624","Dirección":"23 Hansons Court","Email":"tstrangward4@loc.gov","Estado":true,"Sede":"MEDELLIN","NombreProyecto":"CLARO INTEGRAL"},
-		{"CodigoEmpleado":37761321,"TipoIdentificacion":"CC","NroIdentificacion":37761321,"DescripcionCargo":"0028 - OFICIAL","PrimerNombre":"Llywellyn","SegundoNombre":"Gwenni","PrimerApellido":"Hutchens","SegundoApellido":"Aspinal","Telefono":"265-430-4288","Dirección":"1 Meadow Vale Way","Email":"gaspinal5@cloudflare.com","Estado":true,"Sede":"MEDELLIN","NombreProyecto":"CLARO INTEGRAL"},
-		{"CodigoEmpleado":21600530,"TipoIdentificacion":"CC","NroIdentificacion":21600530,"DescripcionCargo":"0028 - OFICIAL","PrimerNombre":"Flemming","SegundoNombre":"Ertha","PrimerApellido":"Seldner","SegundoApellido":"Lared","Telefono":"884-351-9427","Dirección":"927 Hooker Lane","Email":"elared6@wired.com","Estado":true,"Sede":"MEDELLIN","NombreProyecto":"CLARO INTEGRAL"},
-		{"CodigoEmpleado":7366751,"TipoIdentificacion":"CC","NroIdentificacion":7366751,"DescripcionCargo":"0028 - OFICIAL","PrimerNombre":"Viole","SegundoNombre":"Juliette","PrimerApellido":"McTerlagh","SegundoApellido":"Hazley","Telefono":"878-667-9989","Dirección":"3 Rigney Road","Email":"jhazley7@scribd.com","Estado":true,"Sede":"MEDELLIN","NombreProyecto":"CLARO INTEGRAL"},
-		{"CodigoEmpleado":35697208,"TipoIdentificacion":"CC","NroIdentificacion":35697208,"DescripcionCargo":"0028 - OFICIAL","PrimerNombre":"Cort","SegundoNombre":"Dulciana","PrimerApellido":"Carletto","SegundoApellido":"Ditzel","Telefono":"385-745-2334","Dirección":"0678 Sundown Lane","Email":"dditzel8@bigcartel.com","Estado":true,"Sede":"MEDELLIN","NombreProyecto":"CLARO INTEGRAL"},
-		{"CodigoEmpleado":11352061,"TipoIdentificacion":"CC","NroIdentificacion":11352061,"DescripcionCargo":"0028 - OFICIAL","PrimerNombre":"Moyra","SegundoNombre":"Darelle","PrimerApellido":"Ellin","SegundoApellido":"McKilroe","Telefono":"521-276-5400","Dirección":"7 Dunning Park","Email":"dmckilroe9@nifty.com","Estado":true,"Sede":"MEDELLIN","NombreProyecto":"CLARO INTEGRAL"}
-	]
+		{
+		  "CodigoEmpleado": 4386800,
+		  "DescripcionTipoidentificacion": "Cedula",
+		  "NroIdentificacion": 4386800,
+		  "DescripcionCargo": "0028 - OFICIAL",
+		  "PrimerNombre": "Wernher",
+		  "SegundoNombre": "Nikita",
+		  "PrimerApellido": "Bursnoll",
+		  "SegundoApellido": "Headington",
+		  "Telefono": "726-522-7585",
+		  "Dirección": "2 Blue Bill Park Court",
+		  "Email": "nheadington0@aboutads.info",
+		  "Estado": true,
+		  "Sede": "MEDELLIN",
+		  "Proyecto": {
+			"NombreProyecto": "ENEL CODENSA SOC-SOT ZONA SUR",
+			"Codigo": "010C"
+		  }
+		},
+		{
+		  "CodigoEmpleado": 17136606,
+		  "DescripcionTipoidentificacion": "Cedula",
+		  "NroIdentificacion": 17136606,
+		  "DescripcionCargo": "0028 - OFICIAL",
+		  "PrimerNombre": "Anselm",
+		  "SegundoNombre": "Rubin",
+		  "PrimerApellido": "Bassett",
+		  "SegundoApellido": "Wickersley",
+		  "Telefono": "157-144-2896",
+		  "Dirección": "61 Monument Pass",
+		  "Email": "rwickersley1@mac.com",
+		  "Estado": true,
+		  "Sede": "MEDELLIN",
+		  "Proyecto": {
+			"NombreProyecto": "ENEL CODENSA SOC-SOT ZONA SUR",
+			"Codigo": "010C"
+		  }
+		},
+		{
+		  "CodigoEmpleado": 35424883,
+		  "DescripcionTipoidentificacion": "Cedula",
+		  "NroIdentificacion": 35424883,
+		  "DescripcionCargo": "0028 - OFICIAL",
+		  "PrimerNombre": "Whitaker",
+		  "SegundoNombre": "Franz",
+		  "PrimerApellido": "Shipsey",
+		  "SegundoApellido": "Cookley",
+		  "Telefono": "378-606-8073",
+		  "Dirección": "040 Lyons Court",
+		  "Email": "fcookley2@whitehouse.gov",
+		  "Estado": true,
+		  "Sede": "MEDELLIN",
+		  "Proyecto": {
+			"NombreProyecto": "ENEL CODENSA SOC-SOT ZONA SUR",
+			"Codigo": "010C"
+		  }
+		},
+		{
+		  "CodigoEmpleado": 23765002,
+		  "DescripcionTipoidentificacion": "Cedula",
+		  "NroIdentificacion": 23765002,
+		  "DescripcionCargo": "0028 - OFICIAL",
+		  "PrimerNombre": "Dorette",
+		  "SegundoNombre": "Park",
+		  "PrimerApellido": "Stut",
+		  "SegundoApellido": "Byrd",
+		  "Telefono": "496-449-3986",
+		  "Dirección": "6503 Barnett Park",
+		  "Email": "pbyrd3@bigcartel.com",
+		  "Estado": true,
+		  "Sede": "MEDELLIN",
+		  "Proyecto": {
+			"NombreProyecto": "ENEL CODENSA SOC-SOT ZONA SUR",
+			"Codigo": "010C"
+		  }
+		},
+		{
+		  "CodigoEmpleado": 35639570,
+		  "DescripcionTipoidentificacion": "Cedula",
+		  "NroIdentificacion": 35639570,
+		  "DescripcionCargo": "0028 - OFICIAL",
+		  "PrimerNombre": "Franzen",
+		  "SegundoNombre": "Gibb",
+		  "PrimerApellido": "Pauli",
+		  "SegundoApellido": "Wozencroft",
+		  "Telefono": "985-779-5179",
+		  "Dirección": "676 Rusk Crossing",
+		  "Email": "gwozencroft4@independent.co.uk",
+		  "Estado": true,
+		  "Sede": "MEDELLIN",
+		  "Proyecto": {
+			"NombreProyecto": "ENEL CODENSA SOC-SOT ZONA SUR",
+			"Codigo": "010C"
+		  }
+		},
+		{
+		  "CodigoEmpleado": 23021613,
+		  "DescripcionTipoidentificacion": "Cedula",
+		  "NroIdentificacion": 23021613,
+		  "DescripcionCargo": "0028 - OFICIAL",
+		  "PrimerNombre": "Benedikta",
+		  "SegundoNombre": "Barnie",
+		  "PrimerApellido": "Delaney",
+		  "SegundoApellido": "Skeermor",
+		  "Telefono": "813-439-3884",
+		  "Dirección": "00 Ronald Regan Park",
+		  "Email": "bskeermor5@jalbum.net",
+		  "Estado": true,
+		  "Sede": "MEDELLIN",
+		  "Proyecto": {
+			"NombreProyecto": "ENEL CODENSA SOC-SOT ZONA SUR",
+			"Codigo": "010C"
+		  }
+		},
+		{
+		  "CodigoEmpleado": 28236626,
+		  "DescripcionTipoidentificacion": "Cedula",
+		  "NroIdentificacion": 28236626,
+		  "DescripcionCargo": "0028 - OFICIAL",
+		  "PrimerNombre": "Pammie",
+		  "SegundoNombre": "Marci",
+		  "PrimerApellido": "Eames",
+		  "SegundoApellido": "Fittall",
+		  "Telefono": "295-369-6416",
+		  "Dirección": "68 Havey Circle",
+		  "Email": "mfittall6@cafepress.com",
+		  "Estado": true,
+		  "Sede": "MEDELLIN",
+		  "Proyecto": {
+			"NombreProyecto": "ENEL CODENSA SOC-SOT ZONA SUR",
+			"Codigo": "010C"
+		  }
+		},
+		{
+		  "CodigoEmpleado": 30908426,
+		  "DescripcionTipoidentificacion": "Cedula",
+		  "NroIdentificacion": 30908426,
+		  "DescripcionCargo": "0028 - OFICIAL",
+		  "PrimerNombre": "Allison",
+		  "SegundoNombre": "Charo",
+		  "PrimerApellido": "Sewill",
+		  "SegundoApellido": "O'Growgane",
+		  "Telefono": "786-273-7562",
+		  "Dirección": "8 Nelson Center",
+		  "Email": "cogrowgane7@mit.edu",
+		  "Estado": true,
+		  "Sede": "MEDELLIN",
+		  "Proyecto": {
+			"NombreProyecto": "ENEL CODENSA SOC-SOT ZONA SUR",
+			"Codigo": "010C"
+		  }
+		},
+		{
+		  "CodigoEmpleado": 5097201,
+		  "DescripcionTipoidentificacion": "Cedula",
+		  "NroIdentificacion": 5097201,
+		  "DescripcionCargo": "0028 - OFICIAL",
+		  "PrimerNombre": "Vonnie",
+		  "SegundoNombre": "Collete",
+		  "PrimerApellido": "Oakenfall",
+		  "SegundoApellido": "Renachowski",
+		  "Telefono": "908-150-4655",
+		  "Dirección": "0193 Golf Course Junction",
+		  "Email": "crenachowski8@toplist.cz",
+		  "Estado": true,
+		  "Sede": "MEDELLIN",
+		  "Proyecto": {
+			"NombreProyecto": "ENEL CODENSA SOC-SOT ZONA SUR",
+			"Codigo": "010C"
+		  }
+		},
+		{
+		  "CodigoEmpleado": 12088616,
+		  "DescripcionTipoidentificacion": "Cedula",
+		  "NroIdentificacion": 12088616,
+		  "DescripcionCargo": "0028 - OFICIAL",
+		  "PrimerNombre": "Johan",
+		  "SegundoNombre": "Finlay",
+		  "PrimerApellido": "Haddeston",
+		  "SegundoApellido": "Fahy",
+		  "Telefono": "829-468-8727",
+		  "Dirección": "261 Bashford Drive",
+		  "Email": "ffahy9@com.com",
+		  "Estado": true,
+		  "Sede": "MEDELLIN",
+		  "Proyecto": {
+			"NombreProyecto": "ENEL CODENSA SOC-SOT ZONA SUR",
+			"Codigo": "010C"
+		  }
+		}
+	  ]
 );
 });
 
