@@ -118,8 +118,8 @@ res.json(
 		  "Estado": true,
 		  "Sede": "MEDELLIN",
 		  "Proyecto": {
-			"NombreProyecto": "ENEL CODENSA SOC-SOT ZONA SUR",
-			"Codigo": "010C_IMP"
+			"NombreProyecto": "ESSA PERDIDAS_PRUEBAS",
+			"Codigo": "010A_IMP"
 		  }
 		},
 		{
@@ -137,8 +137,8 @@ res.json(
 		  "Estado": true,
 		  "Sede": "MEDELLIN",
 		  "Proyecto": {
-			"NombreProyecto": "ENEL CODENSA SOC-SOT ZONA SUR",
-			"Codigo": "010C_IMP"
+			"NombreProyecto": "ESSA PERDIDAS_PRUEBAS",
+			"Codigo": "010A_IMP"
 		  }
 		},
 		{
@@ -156,8 +156,8 @@ res.json(
 		  "Estado": true,
 		  "Sede": "MEDELLIN",
 		  "Proyecto": {
-			"NombreProyecto": "ENEL CODENSA SOC-SOT ZONA SUR",
-			"Codigo": "010C_IMP"
+			"NombreProyecto": "ESSA PERDIDAS_PRUEBAS",
+			"Codigo": "010A_IMP"
 		  }
 		},
 		{
@@ -175,8 +175,8 @@ res.json(
 		  "Estado": true,
 		  "Sede": "MEDELLIN",
 		  "Proyecto": {
-			"NombreProyecto": "ENEL CODENSA SOC-SOT ZONA SUR",
-			"Codigo": "010C_IMP"
+			"NombreProyecto": "ESSA PERDIDAS_PRUEBAS",
+			"Codigo": "010A_IMP"
 		  }
 		},
 		{
@@ -194,8 +194,8 @@ res.json(
 		  "Estado": true,
 		  "Sede": "MEDELLIN",
 		  "Proyecto": {
-			"NombreProyecto": "ENEL CODENSA SOC-SOT ZONA SUR",
-			"Codigo": "010C_IMP"
+			"NombreProyecto": "ESSA PERDIDAS_PRUEBAS",
+			"Codigo": "010A_IMP"
 		  }
 		}
 	  ]
